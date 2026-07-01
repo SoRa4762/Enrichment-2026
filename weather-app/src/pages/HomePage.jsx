@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
   return (
     <>
@@ -13,10 +15,10 @@ const HomePage = () => {
 
         <div style={{ display: "flex", gap: "2px" }}>
           <button>
-            <a href="/weather">Weather App</a>
+            <Link to="/weather">Weather App</Link>
           </button>
           <button>
-            <a href="/jikan">Jikan App</a>
+            <Link to="/jikan">Jikan App</Link>
           </button>
         </div>
       </div>

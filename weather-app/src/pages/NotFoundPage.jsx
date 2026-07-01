@@ -10,7 +10,7 @@ const NotFoundPage = () => {
         justifyContent: "center",
       }}
     >
-      <h1>404 Not Found</h1>
+      <h1 style={{ color: "red" }}>404 Not Found</h1>
       <hr />
       <h3>This page seems to be missing</h3>
       <p>Contact the Admin?</p>

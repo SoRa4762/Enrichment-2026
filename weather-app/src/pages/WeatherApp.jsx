@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const WeatherApp = () => {
   const [inputValue, setInputValue] = useState("");
@@ -51,7 +52,7 @@ const WeatherApp = () => {
         )}
 
         <p>
-          Go Back to <a href="/">Home Page</a>
+          Go Back to <Link to="/">Home Page</Link>
         </p>
       </div>
     </>
